@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git 操作 | Stone的网络日志</title>
+    <meta name="description" content="记录美好生活">
+    <meta name="generator" content="VuePress 1.3.1">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.d38c349a.css" as="style"><link rel="preload" href="/assets/js/app.27ffa643.js" as="script"><link rel="preload" href="/assets/js/2.b91c2eb6.js" as="script"><link rel="preload" href="/assets/js/10.c72cfef9.js" as="script"><link rel="prefetch" href="/assets/js/11.6142addb.js"><link rel="prefetch" href="/assets/js/12.95b31971.js"><link rel="prefetch" href="/assets/js/13.cd285449.js"><link rel="prefetch" href="/assets/js/3.b8bba02f.js"><link rel="prefetch" href="/assets/js/4.2c811f8e.js"><link rel="prefetch" href="/assets/js/5.f63b3d17.js"><link rel="prefetch" href="/assets/js/6.2907f138.js"><link rel="prefetch" href="/assets/js/7.4bfc1ab7.js"><link rel="prefetch" href="/assets/js/8.c6057694.js"><link rel="prefetch" href="/assets/js/9.823aac2c.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d38c349a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Stone的网络日志</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术" class="dropdown-title"><span class="title">技术</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end/js-basic/" class="nav-link">
+  Js基础
+</a></li><li class="dropdown-subitem"><a href="/front-end/Vue/" class="nav-link">
+  Vue
+</a></li></ul></li><li class="dropdown-item"><h4>
+          后端
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/back-end/nodejs/" class="nav-link">
+  NodeJs
+</a></li><li class="dropdown-subitem"><a href="/back-end/nginx/" class="nav-link">
+  Nginx
+</a></li></ul></li><li class="dropdown-item"><h4>
+          工具
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/tool/git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-subitem"><a href="/tool/shell/" class="nav-link">
+  Shell
+</a></li><li class="dropdown-subitem"><a href="/tool/regExp.html" class="nav-link">
+  正则表达式
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/life/" class="nav-link">
+  生活与创作
+</a></div><div class="nav-item"><a href="/res/" class="nav-link">
+  资源分享
+</a></div> <a href="https://github.com/MrLeihe/MrLeihe.github.io" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术" class="dropdown-title"><span class="title">技术</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/front-end/js-basic/" class="nav-link">
+  Js基础
+</a></li><li class="dropdown-subitem"><a href="/front-end/Vue/" class="nav-link">
+  Vue
+</a></li></ul></li><li class="dropdown-item"><h4>
+          后端
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/back-end/nodejs/" class="nav-link">
+  NodeJs
+</a></li><li class="dropdown-subitem"><a href="/back-end/nginx/" class="nav-link">
+  Nginx
+</a></li></ul></li><li class="dropdown-item"><h4>
+          工具
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/tool/git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-subitem"><a href="/tool/shell/" class="nav-link">
+  Shell
+</a></li><li class="dropdown-subitem"><a href="/tool/regExp.html" class="nav-link">
+  正则表达式
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="/life/" class="nav-link">
+  生活与创作
+</a></div><div class="nav-item"><a href="/res/" class="nav-link">
+  资源分享
+</a></div> <a href="https://github.com/MrLeihe/MrLeihe.github.io" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Git深入</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/tool/git.html" class="active sidebar-link">Git 操作</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/tool/git.html#还原文件" class="sidebar-link">还原文件</a></li><li class="sidebar-sub-header"><a href="/tool/git.html#删除所有已放入暂存区文件" class="sidebar-link">删除所有已放入暂存区文件</a></li><li class="sidebar-sub-header"><a href="/tool/git.html#查看漂亮的-log-结构图" class="sidebar-link">查看漂亮的 log 结构图</a></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Shell深入</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/tool/shell.html" class="sidebar-link">Shell 操作</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>正则</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/tool/regExp.html" class="sidebar-link">常用正则表达式整理</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="git-操作"><a href="#git-操作" class="header-anchor">#</a> Git 操作</h1> <h2 id="还原文件"><a href="#还原文件" class="header-anchor">#</a> 还原文件</h2> <p>以提问中修改了两个文件 a、b 为例，假设需要撤销文件 a 的修改，则修改后的两个文件：</p> <h5 id="_1、如果没有被-git-add-到索引区-git-checkout-a-便可撤销对文件-a-的修改"><a href="#_1、如果没有被-git-add-到索引区-git-checkout-a-便可撤销对文件-a-的修改" class="header-anchor">#</a> 1、如果没有被 <code>git add</code> 到索引区 <code>git checkout a</code> 便可撤销对文件 a 的修改</h5> <h5 id="_2、如果被-git-add-到索引区，但没有做-git-commit-提交"><a href="#_2、如果被-git-add-到索引区，但没有做-git-commit-提交" class="header-anchor">#</a> 2、如果被 <code>git add</code> 到索引区，但没有做 <code>git commit</code> 提交</h5> <p>使用 <code>git reset</code> 将 a 从索引区移除（但会保留在工作区）<code>git reset HEAD a</code>
+撤销工作区中文件 a 的修改 <code>git checkout a</code></p> <h5 id="_3、如果已被提交，则需要先回退当前提交到工作区，然后撤销文件-a-的修改"><a href="#_3、如果已被提交，则需要先回退当前提交到工作区，然后撤销文件-a-的修改" class="header-anchor">#</a> 3、如果已被提交，则需要先回退当前提交到工作区，然后撤销文件 a 的修改</h5> <ul><li>回退当前提交到工作区 <code>git reset HEAD^</code></li> <li>撤销工作区中文件 a 的修改 <code>git checkout a</code></li></ul> <p>补充：灵活使用以上操作的关键在于理解 git 中工作区、索引区的概念和 <code>git reset</code> 命令<code>hard</code>、<code>mixed(default)</code>、<code>soft</code>三种模式的区别，网上有很多这方面的文章，不再赘述。</p> <p><img src="https://user-gold-cdn.xitu.io/2019/12/5/16ed4e88c35fe771?w=682&amp;h=535&amp;f=png&amp;s=96719" alt=""></p> <h2 id="删除所有已放入暂存区文件"><a href="#删除所有已放入暂存区文件" class="header-anchor">#</a> 删除所有已放入暂存区文件</h2> <div class="language-sh extra-class"><pre class="language-sh"><code>$ <span class="token function">git</span> <span class="token function">rm</span> -r -f --cached <span class="token builtin class-name">.</span>
+</code></pre></div><h2 id="查看漂亮的-log-结构图"><a href="#查看漂亮的-log-结构图" class="header-anchor">#</a> 查看漂亮的 log 结构图</h2> <div class="language-sh extra-class"><pre class="language-sh"><code>$ <span class="token function">git</span> log --all --decorate --oneline --graph
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/tool/shell.html">
+        Shell 操作
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.27ffa643.js" defer></script><script src="/assets/js/2.b91c2eb6.js" defer></script><script src="/assets/js/10.c72cfef9.js" defer></script>
+  </body>
+</html>
